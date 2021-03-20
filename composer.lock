@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dac122062d71852d12bcf1db477fb974",
+    "content-hash": "9c2f897a88f5314d3bcb7d73942f72dd",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -497,32 +497,6 @@
                 }
             ],
             "time": "2020-11-13T08:04:11+00:00"
-        },
-        {
-            "name": "frc/batcache",
-            "version": "v1.3-a2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/frc/batcache.git",
-                "reference": "49ecb51a1710e9559b870fbdecda3c7015e54abb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/frc/batcache/zipball/49ecb51a1710e9559b870fbdecda3c7015e54abb",
-                "reference": "49ecb51a1710e9559b870fbdecda3c7015e54abb",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-muplugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "A memcached HTML page cache for WordPress. Fork of the automattic/batcache.",
-            "homepage": "https://github.com/frc/batcache",
-            "time": "2017-10-30T07:18:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -3775,6 +3749,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
+        },
+        {
+            "name": "wpackagist-theme/matrimony",
+            "version": "1.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/matrimony/",
+                "reference": "1.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/matrimony.1.0.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/matrimony/"
         }
     ],
     "packages-dev": [
@@ -3873,9 +3865,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "frc/batcache": 15
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

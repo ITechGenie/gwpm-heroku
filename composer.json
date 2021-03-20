@@ -41,7 +41,8 @@
 		"wpackagist-plugin/sendgrid-email-delivery-simplified": "1.11.7",
 		"wpackagist-plugin/debug-bar": "0.9",
 		"wpackagist-plugin/genie-wp-matrimony": "^0.9.2",
-		"wpackagist-plugin/genie-wp-favicon": "^0.5.2"
+		"wpackagist-plugin/genie-wp-favicon": "^0.5.2",
+		"wpackagist-theme/matrimony": "^1.0.4"
 	},
 	"require-dev": {
 		"heroku/heroku-buildpack-php": "*",
@@ -59,7 +60,8 @@
 				"wpackagist-plugin/genie-wp-matrimony"
 			],
 			"web/app/themes/{$name}/": [
-				"type:wordpress-theme"
+				"type:wordpress-theme",
+				"wpackagist-theme/matrimony"
 			]
 		},
 		"dropin-paths": {
